@@ -1,0 +1,46 @@
+,
+ import java.util.Scanner;
+
+public class UserInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("===Welcome to St. mary college ===");
+
+        System.out.print("Enter your Full name: ");
+        String fullName = scanner.nextLine();
+
+        System.out.print("Enter your Age: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Enter your Course: ");
+        String course = scanner.nextLine();
+
+        System.out.print("Enter yourYear level: ");
+        int yearLevel = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print("Enter for you Favorite quote: ");
+        String favoriteQuote = scanner. nextLine();
+        
+        System.out.print(" ======summary======: ");
+        
+        
+
+        System.out.println("\nYour info:");
+        System.out.println("Charles Dave H. Butlig: " + fullName);
+        System.out.println("18: " + age);
+        System.out.println("BSTI 1B: " + course);
+        System.out.println(" 1st Year College: " + yearLevel);
+        
+    }
+}
+            
+        scanner.close();
+     
+         
+         	
+	              
+	}
+	
+}	
